@@ -1,5 +1,7 @@
 Here are some projects I have completed as part of my studies or outside of school in various languages across different disciplines related to the field of economics and finance.
 
+--------------------------------------------------------------
+
 ⸱ Econometrics : In this replication file, we reproduce the findings of an article studying the reduction of racial bias through digital technologies in NYPD reporting, using R. We also apply alternative econometric methods to compare and contrast our results with those of the original study.
 
 ⸱ Portfolio Management Project : In this portfolio management project, we replicate the process of constructing model portfolios across various market indices (S&P 500, Stoxx 600, MSCI World) using VBA.
