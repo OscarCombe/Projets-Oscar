@@ -1,10 +1,10 @@
-Here are some projects I have completed as part of my studies or outside of school in various languages across different disciplines related to the field of economics and finance.
+Here are some projects and papers I have completed as part of my studies or outside of school in various languages across different disciplines related to the field of economics and finance.
 
 --------------------------------------------------------------
 
-- Financial Project with Python : Complete creation and study from scratch of 3 differents financials style index. Also an interactive interface usable with Streamlit. This project got the best grade of my Applied Python for Finance Class during my first semeste of Master degree (19/20). 
+- Financial Project with Python : Complete creation and study from scratch of 3 differents financials style index. Also an interactive interface usable with Streamlit. This project got the best grade of my Applied Python for Finance Class during my first semester of Master degree (19/20). 
 
-⸱ Econometrics Research : In this replication file, we reproduce the findings of an article studying the reduction of racial bias through digital technologies in NYPD reporting, using R. We also apply alternative econometric methods to compare and contrast our results with those of the original study. I realized this project while I was working with the searcher Grazia Cecere at Les Mines Telecom. 
+⸱ Econometrics Research : In this replication file, we reproduce the findings of an article studying the reduction of racial bias through digital technologies in NYPD reporting, using R. We also apply alternative econometric methods to compare and contrast our results with those of the original study. I realized this project while I was working with the researcher Grazia Cecere at Les Mines Telecom. 
 
 ⸱ Portfolio Management Project : In this portfolio management project, we replicate the process of constructing model portfolios across various market indices (S&P 500, Stoxx 600, MSCI World) using VBA.
 
