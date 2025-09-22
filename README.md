@@ -13,3 +13,6 @@ Here are some projects and papers I have completed as part of my studies or outs
 - Statistics : In this statistical analysis project, we use R to analyze data on non-financial enterprises. Through R Markdown, we present findings with code, visualizations, and interpretations, applying various statistical methods to explore trends and patterns within the data.
 
 - Econometrics Paper : I realised this research paper for a Finanical Econometrics class in Boston College, to better understand the roots of corruption. It requires a multidimensional approach that bridges both institutional and economic domains. Methodologically, the study employs a panel data econometric approach, utilizing fixed effects models to control for unobserved, time-invariant heterogeneity across countries.
+
+
+- Economic Paper : Co-author of an economic note for a Banque de France competition. The topic was global fragmentation, and we focused our paper on the European technology scene in this fragmentation process.
