@@ -33,6 +33,10 @@ Grâce à cette plateforme, vous pourrez également explorer des indices basés 
 """)
 
 # Chargement des données avec mise en cache
+
+st.write("Fichiers dans le dossier courant :", os.listdir('.'))
+
+
 @st.cache_data
 def charger_donnees():
     chemin = 'data_projet_indices_python.xlsx'
