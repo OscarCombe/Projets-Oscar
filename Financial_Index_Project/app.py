@@ -42,7 +42,13 @@ st.write("Fichier Excel présent ?", 'data_projet_indices_python.xlsx' in os.lis
 
 @st.cache_data
 def charger_donnees():
-    chemin = 'data_projet_indices_python.xlsx'
+    chemin = 'Financial_Index_Project/data_projet_indices_python.xlsx'
+
+    st.write("Fichiers dans Financial_Index_Project :", os.listdir('Financial_Index_Project'))
+    st.write("Fichier Excel présent dans Financial_Index_Project ?", 'data_projet_indices_python.xlsx' in os.listdir('Financial_Index_Project'))
+
+
+    
     index_data = pd.read_excel(chemin, sheet_name='Index')
     forex_data = pd.read_excel(chemin, sheet_name="Forex")
     members_data = pd.read_excel(chemin, sheet_name='Members')
