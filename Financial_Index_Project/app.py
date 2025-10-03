@@ -39,7 +39,7 @@ st.write("Fichiers dans le dossier courant :", os.listdir('.'))
 
 @st.cache_data
 def charger_donnees():
-    chemin = 'data_projet_indices_python.xlsx'
+    chemin = 'Financial_Index_Project/data_projet_indices_python.xlsx'
     index_data = pd.read_excel(chemin, sheet_name='Index')
     forex_data = pd.read_excel(chemin, sheet_name="Forex")
     members_data = pd.read_excel(chemin, sheet_name='Members')
