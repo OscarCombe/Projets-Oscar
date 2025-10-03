@@ -35,7 +35,7 @@ Grâce à cette plateforme, vous pourrez également explorer des indices basés 
 # Chargement des données avec mise en cache
 @st.cache_data
 def charger_donnees():
-    chemin = 'Data projet indices python.xlsx'
+    chemin = 'data_projet_indices_python.xlsx'
     index_data = pd.read_excel(chemin, sheet_name='Index')
     forex_data = pd.read_excel(chemin, sheet_name="Forex")
     members_data = pd.read_excel(chemin, sheet_name='Members')
