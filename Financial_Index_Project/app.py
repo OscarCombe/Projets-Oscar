@@ -31,11 +31,9 @@ Grâce à cette plateforme, vous pourrez également explorer des indices basés 
 
 **👉 Commencez dès maintenant en sélectionnant un secteur à analyser via le panneau latéral.**
 """)
-
-# Chargement des données avec mise en cache
-
 st.write("Fichiers dans le dossier courant :", os.listdir('.'))
 
+# Chargement des données avec mise en cache
 
 @st.cache_data
 def charger_donnees():
