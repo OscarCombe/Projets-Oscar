@@ -32,7 +32,10 @@ Grâce à cette plateforme, vous pourrez également explorer des indices basés 
 **👉 Commencez dès maintenant en sélectionnant un secteur à analyser via le panneau latéral.**
 """)
 st.write("Chemin courant :", os.getcwd())
+
 st.write("Fichiers dans le dossier courant :", os.listdir('.'))
+st.write("Fichier Excel présent ?", 'data_projet_indices_python.xlsx' in os.listdir('.'))
+
 
 
 # Chargement des données avec mise en cache
