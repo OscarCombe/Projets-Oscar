@@ -31,13 +31,15 @@ Grâce à cette plateforme, vous pourrez également explorer des indices basés 
 
 **👉 Commencez dès maintenant en sélectionnant un secteur à analyser via le panneau latéral.**
 """)
+st.write("Chemin courant :", os.getcwd())
 st.write("Fichiers dans le dossier courant :", os.listdir('.'))
+
 
 # Chargement des données avec mise en cache
 
 @st.cache_data
 def charger_donnees():
-    chemin = 'Financial_Index_Project/data_projet_indices_python.xlsx'
+    chemin = 'data_projet_indices_python.xlsx'
     index_data = pd.read_excel(chemin, sheet_name='Index')
     forex_data = pd.read_excel(chemin, sheet_name="Forex")
     members_data = pd.read_excel(chemin, sheet_name='Members')
