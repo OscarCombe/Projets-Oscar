@@ -39,7 +39,7 @@ def charger_donnees():
      if not os.path.exists(local_path):
           r = requests.get(url)
           with open(local_path, 'wb') as f:
-          f.write(r.content)
+               f.write(r.content)
 
     index_data = pd.read_excel(local_path, sheet_name='Index', engine='openpyxl')
     forex_data = pd.read_excel(local_path, sheet_name="Forex", engine='openpyxl')
