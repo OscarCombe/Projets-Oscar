@@ -1,6 +1,8 @@
-﻿streamlit
+streamlit
 pandas
+numpy
 matplotlib
 seaborn
-numpy
-openpyxl 
+openpyxl
+scipy
+requests
