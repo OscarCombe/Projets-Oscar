@@ -4,7 +4,8 @@
 ## Description
 Interactive Financial Index Builder est une application interactive développée avec **Python** et **Streamlit**. Elle permet d'analyser et de créer des indices financiers personnalisés basés sur des données sectorielles et fondamentales. L'objectif est d'explorer les dynamiques de marché et de tester des stratégies d'investissement.
 
-Cliquer ici : financial-index-builder-ocombe.streamlit.app
+Cliquer ici : 
+https://financial-index-builder-ocombe.streamlit.app/
 ---
 
 ## Fonctionnalités principales
