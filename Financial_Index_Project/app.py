@@ -41,25 +41,25 @@ def charger_donnees():
           with open(local_path, 'wb') as f:
                f.write(r.content)
 
-    index_data = pd.read_excel(local_path, sheet_name='Index', engine='openpyxl')
-    forex_data = pd.read_excel(local_path, sheet_name="Forex", engine='openpyxl')
-    members_data = pd.read_excel(local_path, sheet_name='Members', engine='openpyxl')
-    spx_prices = pd.read_excel(local_path, sheet_name='SPX_PX_LAST', engine='openpyxl')
-    sxxp_prices = pd.read_excel(local_path, sheet_name='SXXP_PX_LAST', engine='openpyxl')
-    qualitativ_2018 = pd.read_excel(local_path, sheet_name="Qualitativ_2018", engine='openpyxl')
-    qualitativ_2019 = pd.read_excel(local_path, sheet_name="Qualitativ_2019", engine='openpyxl')
-    qualitativ_2020 = pd.read_excel(local_path, sheet_name="Qualitativ_2020", engine='openpyxl')
+     index_data = pd.read_excel(local_path, sheet_name='Index', engine='openpyxl')
+     forex_data = pd.read_excel(local_path, sheet_name="Forex", engine='openpyxl')
+     members_data = pd.read_excel(local_path, sheet_name='Members', engine='openpyxl')
+     spx_prices = pd.read_excel(local_path, sheet_name='SPX_PX_LAST', engine='openpyxl')
+     sxxp_prices = pd.read_excel(local_path, sheet_name='SXXP_PX_LAST', engine='openpyxl')
+     qualitativ_2018 = pd.read_excel(local_path, sheet_name="Qualitativ_2018", engine='openpyxl')
+     qualitativ_2019 = pd.read_excel(local_path, sheet_name="Qualitativ_2019", engine='openpyxl')
+     qualitativ_2020 = pd.read_excel(local_path, sheet_name="Qualitativ_2020", engine='openpyxl')
 
-    return {
-        'index_data': index_data,
-        'forex_data': forex_data,
-        'members_data': members_data,
-        'spx_prices': spx_prices,
-        'sxxp_prices': sxxp_prices,
-        'qualitativ_2018': qualitativ_2018,
-        'qualitativ_2019': qualitativ_2019,
-        'qualitativ_2020': qualitativ_2020,
-    }
+     return {
+             'index_data': index_data,
+             'forex_data': forex_data,
+             'members_data': members_data,
+             'spx_prices': spx_prices,
+             'sxxp_prices': sxxp_prices,
+             'qualitativ_2018': qualitativ_2018,
+             'qualitativ_2019': qualitativ_2019,
+             'qualitativ_2020': qualitativ_2020,
+         }
 
 donnees = charger_donnees()
 
