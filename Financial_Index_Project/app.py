@@ -33,7 +33,7 @@ Grâce à cette plateforme, vous pourrez également explorer des indices basés 
 
 @st.cache_data
 def charger_donnees():
-    url = "https://www.dropbox.com/scl/fi/aazc2gnzofqjee5fsc9sm/Data-projet-indices-python.xlsx?rlkey=6vyz3mbazfqx4c665ud6mnesj&st=9vzw1bf8&dl=1"
+    # url = "https://www.dropbox.com/scl/fi/aazc2gnzofqjee5fsc9sm/Data-projet-indices-python.xlsx?rlkey=6vyz3mbazfqx4c665ud6mnesj&st=9vzw1bf8&dl=1"
     local_path = "Data projet indices python.xlsx"
 
     if not os.path.exists(local_path):
