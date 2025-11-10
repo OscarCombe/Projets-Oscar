@@ -36,10 +36,10 @@ def charger_donnees():
      url = "https://www.dropbox.com/scl/fi/aazc2gnzofqjee5fsc9sm/Data-projet-indices-python.xlsx?rlkey=6vyz3mbazfqx4c665ud6mnesj&st=9vzw1bf8&dl=1"
      local_path = "Data projet indices python.xlsx"
 
-    if not os.path.exists(local_path):
-       r = requests.get(url)
-       with open(local_path, 'wb') as f:
-           # f.write(r.content)
+     if not os.path.exists(local_path):
+          r = requests.get(url)
+          with open(local_path, 'wb') as f:
+          f.write(r.content)
 
     index_data = pd.read_excel(local_path, sheet_name='Index', engine='openpyxl')
     forex_data = pd.read_excel(local_path, sheet_name="Forex", engine='openpyxl')
