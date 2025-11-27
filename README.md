@@ -16,3 +16,6 @@ Here are some projects and papers I have completed as part of my studies or outs
 
 
 - Economic Paper : Co-author of an economic note for a Banque de France competition. The topic was global fragmentation, and we focused our paper on the European technology scene in this fragmentation process.
+
+
+- Econometric study of related variables: Interest rates and exchange rates on the euro. This paper studies how changes in the ECB policy rate relate to exchange rates of the USD, JPY and GBP. Framed by interest‑rate parity, it contrasts the USD as a global reserve currency, the JPY as a safe haven with ultra‑accommodative policy, and the GBP as a non‑euro European currency. The analysis is preliminary since only the ECB rate is used (foreign rates are not directly included), but relies on very recent data and compares results across currency zones.
